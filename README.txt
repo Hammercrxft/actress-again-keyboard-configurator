@@ -88,6 +88,15 @@ a method to reload/reconfigure your script while playing, (f10)
 and a method to import and export your configuration.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+	Other notes
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Only the script or executable itself is required for
+the program to function.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 	
 	List of Key Names
 	
