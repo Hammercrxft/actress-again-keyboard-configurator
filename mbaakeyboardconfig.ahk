@@ -1,6 +1,7 @@
 ﻿#NoEnv
 SendMode Input
 #SingleInstance Force
+#MaxHotkeysPerInterval 357
 SetBatchLines -1
 ListLines Off
 ;#IfWinActive ahk_exe MBAA.exe
@@ -147,7 +148,7 @@ guisetup:
   Gui, Add, Edit, x32 y209 w180 h20 vplayer1_c, %player1_c%
   Gui, Add, Edit, x32 y239 w180 h20 vplayer1_d, %player1_d%
   Gui, Add, Edit, x32 y269 w180 h20 vplayer1_e, %player1_e%
-  Gui, Add, Edit, x32 y299 w180 h20 vplayet1_start, %player1_start%
+  Gui, Add, Edit, x32 y299 w180 h20 vplayer1_start, %player1_start%
   Gui, Add, GroupBox, x362 y9 w220 h320 , Player 2 (Right)
   Gui, Add, Edit, x382 y29 w180 h20 vplayer2_up, %player2_up%
   Gui, Add, Edit, x382 y59 w180 h20 vplayer2_left, %player2_left%

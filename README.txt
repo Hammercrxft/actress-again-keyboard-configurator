@@ -1,13 +1,8 @@
 Actress Again Keyboard Configurator
-Release 1
+Release 1, Hotfix 1
 
 Powered by AutoHotKey V1.1.33.10
-Script and program by Elevenex#9338
-
-NOTE: 
-YOUR CONFIGURATION ONLY APPLIES
-IF 'MBAA.EXE' IS THE ACTIVE WINDOW
-AND WHEN 'MBAAKEYBOARDCONFIG' IS RUNNING!
+Script and program by Hammercrxft(GitHub)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 	
@@ -78,23 +73,23 @@ if the user enters a key which is configured for a control.
 
 Being a AHK script/program, you no longer require
 to modify the game's memory, however this will result
-in a (tiny) increase of input latency.
+in an increase of input latency.
 
 
-
-Currently, AAKC provides a game exit delay, (no more accidents!)
-remembers your configuration, (via user registries)
-a method to reload/reconfigure your script while playing, (f10)
-and a method to import and export your configuration.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-	Other notes
+	Changelog
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Only the script or executable itself is required for
-the program to function.
+Release 1, Hotfix 1:
+  - Fixed a typo that prevented Player 1's start
+    button to be configurable.
+  - Increased maximum input per interval.
+
+Release 1
+  - First release.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 	
@@ -102,21 +97,22 @@ the program to function.
 	
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Please use lowercase letters. 
+Please use lowercase letters when assigning keys.
 Uppercase letters and shifted symbols are
 unusable as it implies the usage of SHIFT.
 
-Numpad keys require NumLock to be activated,
-else their cursor control keys are used
+NumPad keys require NumLock to be activated,
+else the cursor control keys will be used
 (cursor control = arrows, insert, home, etc.)
 
-Not all names are listed, including repetitive
+Not all key names are listed, including repetitive
 keyboard key names, multimedia key names,
 and mouse button names.
 
-For a full list, see
-'AutoHotKey: List Of Keys' on the internet.
+Do ignore text in the parentheses.
 
+For a full list, see
+https://www.autohotkey.com/docs/KeyList.htm
 
 
 esc
@@ -172,8 +168,9 @@ l
 ;
 '
 enter
-shift (refers both lshift and rshift)
+shift (both lshift and rshift)
 lshift (left shift)
+rshift (right shift)
 z
 x
 c
@@ -184,18 +181,17 @@ m
 ,
 .
 /
-rshift (right shift)
-ctrl (refers both lctrl and rctrl)
-lctrl
-alt (refers both lalt, ralt and altgr)
-lalt (alt)
+ctrl (both lctrl and rctrl)
+lctrl (left ctrl)
+rctrl (right ctrl)
+alt (also activated when lalt, ralt and altgr is pressed)
+lalt (left alt)
+ralt (right alt)
 space
 spacebar
-rctrl
-ralt
 appskey (the key that opens the right click menu)
 altgr (used in european keyboards)
-printscreen (PrtSc)
+printscreen (appears as PrtScr in your keyboard.)
 pause (Pause/Break)
 insert
 home
